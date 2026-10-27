@@ -1,4 +1,4 @@
-# pm for ueba
+# Process mining for UEBA and anomaly detection
 
 Процессная аналитика для обнаружения и объяснения аномалий поведения пользователей и сущностей
 
