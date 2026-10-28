@@ -19,4 +19,4 @@ google drive: [https://drive.google.com/drive/folders/1hhIjDdlAouX7xs_51yRQAAoEQ
 Представлены результаты conformance checking, оценки обнаружения
 аномалий и разборы отдельных трасс через сети Петри.
 
-[Итоговый отчёт HTML](DARPA_detection_experiment/report.html)
+[Открыть интерактивный отчёт в браузере](https://samaralfe.github.io/pm-for-ueba/DARPA_detection_experiment/report.html)
