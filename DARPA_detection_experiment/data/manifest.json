@@ -1,0 +1,44 @@
+[
+  {
+    "file": "inside_full.dump.gz",
+    "url": "https://archive.ll.mit.edu/ideval/data/2000/LLS_DDOS_1.0/data_and_labeling/tcpdump_inside/LLS_DDOS_1.0-inside.dump.gz",
+    "bytes": 50142969,
+    "sha256": "9f00c8872b1e84a2cf973ea2b706bb5d539b0c7a33d1b964e010f30c01089219",
+    "hash_origin": "local integrity, not an MIT reference checksum"
+  },
+  {
+    "file": "phase-1-dump",
+    "url": "https://archive.ll.mit.edu/ideval/data/2000/LLS_DDOS_1.0/data_and_labeling/tcpdump_inside/phase-1-dump",
+    "bytes": 3056,
+    "sha256": "2729aac53ec3fd38da7359ab7291217a5258f56b58f2536b00ea555d2bdd1ea0",
+    "hash_origin": "local integrity, not an MIT reference checksum"
+  },
+  {
+    "file": "phase-2-dump",
+    "url": "https://archive.ll.mit.edu/ideval/data/2000/LLS_DDOS_1.0/data_and_labeling/tcpdump_inside/phase-2-dump",
+    "bytes": 18548,
+    "sha256": "132d33715280086fd8e0c682a28030f8a557ca9dab152047b3937c52ef6069dd",
+    "hash_origin": "local integrity, not an MIT reference checksum"
+  },
+  {
+    "file": "phase-3-dump",
+    "url": "https://archive.ll.mit.edu/ideval/data/2000/LLS_DDOS_1.0/data_and_labeling/tcpdump_inside/phase-3-dump",
+    "bytes": 40057,
+    "sha256": "7dd058fea5f06eedc9af89cd3a714245976501775d5ae0ccf539259e30a2bb56",
+    "hash_origin": "local integrity, not an MIT reference checksum"
+  },
+  {
+    "file": "phase-4-dump",
+    "url": "https://archive.ll.mit.edu/ideval/data/2000/LLS_DDOS_1.0/data_and_labeling/tcpdump_inside/phase-4-dump",
+    "bytes": 235168,
+    "sha256": "7a8c89ead1e4dea72f2f83604037992d0956458702799c60d17aa088df6577eb",
+    "hash_origin": "local integrity, not an MIT reference checksum"
+  },
+  {
+    "file": "phase-5-dump",
+    "url": "https://archive.ll.mit.edu/ideval/data/2000/LLS_DDOS_1.0/data_and_labeling/tcpdump_inside/phase-5-dump",
+    "bytes": 5927179,
+    "sha256": "ed17873082625c44bbc00ede710b735e9f4c1043793a4555c959790742af6c61",
+    "hash_origin": "local integrity, not an MIT reference checksum"
+  }
+]

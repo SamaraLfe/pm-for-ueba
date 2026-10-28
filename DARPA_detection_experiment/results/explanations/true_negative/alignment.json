@@ -1,0 +1,150 @@
+{
+  "status": "complete",
+  "cost": 0,
+  "visited_states": 51,
+  "moves": [
+    {
+      "kind": "tau",
+      "transition": "skip_2",
+      "model_action": null,
+      "log_action": null,
+      "position": 0,
+      "before": {
+        "p13": 1
+      },
+      "after": {
+        "p7": 1
+      }
+    },
+    {
+      "kind": "tau",
+      "transition": "skip_4",
+      "model_action": null,
+      "log_action": null,
+      "position": 0,
+      "before": {
+        "p7": 1
+      },
+      "after": {
+        "p9": 1
+      }
+    },
+    {
+      "kind": "tau",
+      "transition": "init_loop_5",
+      "model_action": null,
+      "log_action": null,
+      "position": 0,
+      "before": {
+        "p9": 1
+      },
+      "after": {
+        "p10": 1
+      }
+    },
+    {
+      "kind": "sync",
+      "transition": "bc00c2e9-b959-4053-98a4-c5ee1b647baf",
+      "model_action": "IN_TCP_FILE",
+      "log_action": "IN_TCP_FILE",
+      "position": 0,
+      "before": {
+        "p10": 1
+      },
+      "after": {
+        "p11": 1
+      }
+    },
+    {
+      "kind": "tau",
+      "transition": "skip_7",
+      "model_action": null,
+      "log_action": null,
+      "position": 1,
+      "before": {
+        "p11": 1
+      },
+      "after": {
+        "p10": 1
+      }
+    },
+    {
+      "kind": "sync",
+      "transition": "88871533-e43d-4a65-9f65-1ca4c9397622",
+      "model_action": "IN_TCP_MAIL",
+      "log_action": "IN_TCP_MAIL",
+      "position": 1,
+      "before": {
+        "p10": 1
+      },
+      "after": {
+        "p11": 1
+      }
+    },
+    {
+      "kind": "tau",
+      "transition": "skip_7",
+      "model_action": null,
+      "log_action": null,
+      "position": 2,
+      "before": {
+        "p11": 1
+      },
+      "after": {
+        "p10": 1
+      }
+    },
+    {
+      "kind": "sync",
+      "transition": "828e66ec-00f7-4753-a83d-ffa79f9f21fe",
+      "model_action": "OUT_UDP_OTHER",
+      "log_action": "OUT_UDP_OTHER",
+      "position": 2,
+      "before": {
+        "p10": 1
+      },
+      "after": {
+        "p11": 1
+      }
+    },
+    {
+      "kind": "tau",
+      "transition": "skip_8",
+      "model_action": null,
+      "log_action": null,
+      "position": 3,
+      "before": {
+        "p11": 1
+      },
+      "after": {
+        "p8": 1
+      }
+    },
+    {
+      "kind": "tau",
+      "transition": "skip_9",
+      "model_action": null,
+      "log_action": null,
+      "position": 3,
+      "before": {
+        "p8": 1
+      },
+      "after": {
+        "p6": 1
+      }
+    },
+    {
+      "kind": "tau",
+      "transition": "tau_1",
+      "model_action": null,
+      "log_action": null,
+      "position": 3,
+      "before": {
+        "p6": 1
+      },
+      "after": {
+        "p12": 1
+      }
+    }
+  ]
+}

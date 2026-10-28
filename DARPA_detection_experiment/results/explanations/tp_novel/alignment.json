@@ -1,0 +1,85 @@
+{
+  "status": "complete",
+  "cost": 2,
+  "visited_states": 59,
+  "moves": [
+    {
+      "kind": "log",
+      "transition": null,
+      "model_action": null,
+      "log_action": "IN_ICMP",
+      "position": 0,
+      "before": {
+        "p13": 1
+      },
+      "after": {
+        "p13": 1
+      }
+    },
+    {
+      "kind": "log",
+      "transition": null,
+      "model_action": null,
+      "log_action": "IN_UDP_OTHER",
+      "position": 1,
+      "before": {
+        "p13": 1
+      },
+      "after": {
+        "p13": 1
+      }
+    },
+    {
+      "kind": "sync",
+      "transition": "31f1a1e4-55f1-4f14-a08b-0474836e87da",
+      "model_action": "IN_TCP_OTHER",
+      "log_action": "IN_TCP_OTHER",
+      "position": 2,
+      "before": {
+        "p13": 1
+      },
+      "after": {
+        "p7": 1
+      }
+    },
+    {
+      "kind": "tau",
+      "transition": "skip_3",
+      "model_action": null,
+      "log_action": null,
+      "position": 3,
+      "before": {
+        "p7": 1
+      },
+      "after": {
+        "p8": 1
+      }
+    },
+    {
+      "kind": "tau",
+      "transition": "skip_9",
+      "model_action": null,
+      "log_action": null,
+      "position": 3,
+      "before": {
+        "p8": 1
+      },
+      "after": {
+        "p6": 1
+      }
+    },
+    {
+      "kind": "tau",
+      "transition": "tau_1",
+      "model_action": null,
+      "log_action": null,
+      "position": 3,
+      "before": {
+        "p6": 1
+      },
+      "after": {
+        "p12": 1
+      }
+    }
+  ]
+}

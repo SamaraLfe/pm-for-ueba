@@ -1,0 +1,69 @@
+{
+  "grid": [
+    0,
+    0.05,
+    0.1,
+    0.15,
+    0.2,
+    0.25,
+    0.3,
+    0.4,
+    0.5
+  ],
+  "train_min_fitness": 0.95,
+  "calibration_min_fitness": 0.9,
+  "criterion": "harmonic(train_corrected_fitness, calibration_corrected_fitness, et_precision_train)",
+  "aggregation_criterion": "quality * multi_step_train_fraction",
+  "selected": {
+    "host_60s": {
+      "aggregation": "host_60s",
+      "noise_threshold": 0.1,
+      "train_corrected_fitness": 0.9740938469406425,
+      "calibration_corrected_fitness": 0.9767001291059154,
+      "et_precision_train": 0.751183970856102,
+      "quality": 0.8871323274224584,
+      "eligible": true,
+      "places": 15,
+      "transitions": 31,
+      "arcs": 64,
+      "train_cases": 258,
+      "calibration_cases": 68,
+      "multi_step_train_fraction": 0.39147286821705424,
+      "explanation_suitability": 0.34728823670414066
+    },
+    "host_300s": {
+      "aggregation": "host_300s",
+      "noise_threshold": 0.1,
+      "train_corrected_fitness": 0.9789172225034612,
+      "calibration_corrected_fitness": 0.9883065221192516,
+      "et_precision_train": 0.6003949967083608,
+      "quality": 0.8110434175435434,
+      "eligible": true,
+      "places": 14,
+      "transitions": 29,
+      "arcs": 60,
+      "train_cases": 91,
+      "calibration_cases": 14,
+      "multi_step_train_fraction": 0.5494505494505495,
+      "explanation_suitability": 0.44562825139755136
+    },
+    "host_session_30s": {
+      "aggregation": "host_session_30s",
+      "noise_threshold": 0.15,
+      "train_corrected_fitness": 0.9775461421758938,
+      "calibration_corrected_fitness": 0.9863518208627369,
+      "et_precision_train": 0.6932581251678753,
+      "quality": 0.862249640303799,
+      "eligible": true,
+      "places": 37,
+      "transitions": 59,
+      "arcs": 126,
+      "train_cases": 163,
+      "calibration_cases": 40,
+      "multi_step_train_fraction": 0.37423312883435583,
+      "explanation_suitability": 0.3226823807271886
+    }
+  },
+  "explanation_aggregation": "host_300s",
+  "explanation_miner": "inductive"
+}

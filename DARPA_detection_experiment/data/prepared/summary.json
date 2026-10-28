@@ -1,0 +1,85 @@
+{
+  "packets": 649787,
+  "decoded_packets": 646703,
+  "excluded_packets": {
+    "non_ipv4_or_short_ethernet": 3084
+  },
+  "flows": 126573,
+  "flow_labels": {
+    "background_reference": 53001,
+    "attack": 73572
+  },
+  "annotation_packet_counts": {
+    "1": 40,
+    "2": 158,
+    "3": 225,
+    "4": 520,
+    "5": 74480
+  },
+  "matched_packet_counts": {
+    "1": 40,
+    "2": 158,
+    "3": 225,
+    "4": 520,
+    "5": 74480
+  },
+  "unique_annotation_fingerprints": 75423,
+  "matched_unique_fingerprints": 75423,
+  "minimum_us": 952438896476837,
+  "maximum_us": 952450548477563,
+  "first_attack_us": 952440696142272,
+  "train_end_us": 952439976276098,
+  "calibration_end_us": 952440336209185,
+  "entity_anchors": 42,
+  "internal_hosts": 40,
+  "aggregations": [
+    {
+      "rule": "host_60s",
+      "cases": 3112,
+      "membership": 169793,
+      "singletons": 1895,
+      "splits": {
+        "test": 2753,
+        "train": 258,
+        "calibration": 68,
+        "boundary": 33
+      },
+      "test_labels": {
+        "attack": 51,
+        "background_reference": 2702
+      }
+    },
+    {
+      "rule": "host_300s",
+      "cases": 1078,
+      "membership": 169793,
+      "singletons": 490,
+      "splits": {
+        "test": 944,
+        "train": 91,
+        "calibration": 14,
+        "boundary": 29
+      },
+      "test_labels": {
+        "attack": 48,
+        "background_reference": 896
+      }
+    },
+    {
+      "rule": "host_session_30s",
+      "cases": 2044,
+      "membership": 169793,
+      "singletons": 1235,
+      "splits": {
+        "test": 1819,
+        "train": 163,
+        "calibration": 40,
+        "boundary": 22
+      },
+      "test_labels": {
+        "attack": 48,
+        "background_reference": 1771
+      }
+    }
+  ]
+}

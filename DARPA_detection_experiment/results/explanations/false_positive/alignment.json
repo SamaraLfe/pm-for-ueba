@@ -1,0 +1,72 @@
+{
+  "status": "complete",
+  "cost": 1,
+  "visited_states": 43,
+  "moves": [
+    {
+      "kind": "tau",
+      "transition": "skip_2",
+      "model_action": null,
+      "log_action": null,
+      "position": 0,
+      "before": {
+        "p13": 1
+      },
+      "after": {
+        "p7": 1
+      }
+    },
+    {
+      "kind": "log",
+      "transition": null,
+      "model_action": null,
+      "log_action": "OUT_TCP_FILE",
+      "position": 0,
+      "before": {
+        "p7": 1
+      },
+      "after": {
+        "p7": 1
+      }
+    },
+    {
+      "kind": "sync",
+      "transition": "81d6af51-1c99-4be0-9302-0869645fad5d",
+      "model_action": "IN_TCP_WEB",
+      "log_action": "IN_TCP_WEB",
+      "position": 1,
+      "before": {
+        "p7": 1
+      },
+      "after": {
+        "p8": 1
+      }
+    },
+    {
+      "kind": "tau",
+      "transition": "skip_9",
+      "model_action": null,
+      "log_action": null,
+      "position": 2,
+      "before": {
+        "p8": 1
+      },
+      "after": {
+        "p6": 1
+      }
+    },
+    {
+      "kind": "tau",
+      "transition": "tau_1",
+      "model_action": null,
+      "log_action": null,
+      "position": 2,
+      "before": {
+        "p6": 1
+      },
+      "after": {
+        "p12": 1
+      }
+    }
+  ]
+}

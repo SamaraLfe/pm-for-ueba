@@ -1,0 +1,33 @@
+{
+  "packets": 649787,
+  "decoded_packets": 646703,
+  "excluded_packets": {
+    "non_ipv4_or_short_ethernet": 3084
+  },
+  "flows": 126573,
+  "flow_labels": {
+    "background_reference": 53001,
+    "attack": 73572
+  },
+  "annotation_packet_counts": {
+    "1": 40,
+    "2": 158,
+    "3": 225,
+    "4": 520,
+    "5": 74480
+  },
+  "matched_packet_counts": {
+    "1": 40,
+    "2": 158,
+    "3": 225,
+    "4": 520,
+    "5": 74480
+  },
+  "unique_annotation_fingerprints": 75423,
+  "matched_unique_fingerprints": 75423,
+  "minimum_us": 952438896476837,
+  "maximum_us": 952450548477563,
+  "first_attack_us": 952440696142272,
+  "train_end_us": 952439976276098,
+  "calibration_end_us": 952440336209185
+}

@@ -1,0 +1,512 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<pnml>
+  <net id="alpha_plus_net_1793142030.4860225" type="http://www.pnml.org/version-2009/grammar/pnmlcoremodel">
+    <name>
+      <text>alpha_plus_net_1793142030.4860225</text>
+    </name>
+    <page id="n0">
+      <place id="p2">
+        <name>
+          <text>p2</text>
+        </name>
+      </place>
+      <place id="p40">
+        <name>
+          <text>p40</text>
+        </name>
+      </place>
+      <place id="p31">
+        <name>
+          <text>p31</text>
+        </name>
+      </place>
+      <place id="p34">
+        <name>
+          <text>p34</text>
+        </name>
+      </place>
+      <place id="p36">
+        <name>
+          <text>p36</text>
+        </name>
+      </place>
+      <place id="p3">
+        <name>
+          <text>p3</text>
+        </name>
+      </place>
+      <place id="p6">
+        <name>
+          <text>p6</text>
+        </name>
+      </place>
+      <place id="p16">
+        <name>
+          <text>p16</text>
+        </name>
+      </place>
+      <place id="p20">
+        <name>
+          <text>p20</text>
+        </name>
+      </place>
+      <place id="p5">
+        <name>
+          <text>p5</text>
+        </name>
+      </place>
+      <place id="p29">
+        <name>
+          <text>p29</text>
+        </name>
+      </place>
+      <place id="p9">
+        <name>
+          <text>p9</text>
+        </name>
+      </place>
+      <place id="p24">
+        <name>
+          <text>p24</text>
+        </name>
+      </place>
+      <place id="p7">
+        <name>
+          <text>p7</text>
+        </name>
+      </place>
+      <place id="p1">
+        <name>
+          <text>p1</text>
+        </name>
+      </place>
+      <place id="p23">
+        <name>
+          <text>p23</text>
+        </name>
+      </place>
+      <place id="p28">
+        <name>
+          <text>p28</text>
+        </name>
+      </place>
+      <place id="p21">
+        <name>
+          <text>p21</text>
+        </name>
+      </place>
+      <place id="p0">
+        <name>
+          <text>p0</text>
+        </name>
+      </place>
+      <place id="p13">
+        <name>
+          <text>p13</text>
+        </name>
+      </place>
+      <place id="p15">
+        <name>
+          <text>p15</text>
+        </name>
+      </place>
+      <place id="p22">
+        <name>
+          <text>p22</text>
+        </name>
+      </place>
+      <place id="p30">
+        <name>
+          <text>p30</text>
+        </name>
+      </place>
+      <place id="p32">
+        <name>
+          <text>p32</text>
+        </name>
+      </place>
+      <place id="p18">
+        <name>
+          <text>p18</text>
+        </name>
+      </place>
+      <place id="p39">
+        <name>
+          <text>p39</text>
+        </name>
+      </place>
+      <place id="p33">
+        <name>
+          <text>p33</text>
+        </name>
+      </place>
+      <place id="p14">
+        <name>
+          <text>p14</text>
+        </name>
+      </place>
+      <place id="p10">
+        <name>
+          <text>p10</text>
+        </name>
+      </place>
+      <place id="p11">
+        <name>
+          <text>p11</text>
+        </name>
+      </place>
+      <place id="p37">
+        <name>
+          <text>p37</text>
+        </name>
+      </place>
+      <place id="p17">
+        <name>
+          <text>p17</text>
+        </name>
+      </place>
+      <place id="p4">
+        <name>
+          <text>p4</text>
+        </name>
+      </place>
+      <place id="p26">
+        <name>
+          <text>p26</text>
+        </name>
+      </place>
+      <place id="p27">
+        <name>
+          <text>p27</text>
+        </name>
+      </place>
+      <place id="p25">
+        <name>
+          <text>p25</text>
+        </name>
+      </place>
+      <place id="p19">
+        <name>
+          <text>p19</text>
+        </name>
+      </place>
+      <place id="p41">
+        <name>
+          <text>p41</text>
+        </name>
+        <initialMarking>
+          <text>1</text>
+        </initialMarking>
+      </place>
+      <place id="p35">
+        <name>
+          <text>p35</text>
+        </name>
+      </place>
+      <place id="p38">
+        <name>
+          <text>p38</text>
+        </name>
+      </place>
+      <place id="p12">
+        <name>
+          <text>p12</text>
+        </name>
+      </place>
+      <place id="p8">
+        <name>
+          <text>p8</text>
+        </name>
+      </place>
+      <transition id="IN_TCP_FILE">
+        <name>
+          <text>IN_TCP_FILE</text>
+        </name>
+      </transition>
+      <transition id="OUT_TCP_WEB">
+        <name>
+          <text>OUT_TCP_WEB</text>
+        </name>
+      </transition>
+      <transition id="OUT_TCP_MAIL">
+        <name>
+          <text>OUT_TCP_MAIL</text>
+        </name>
+      </transition>
+      <transition id="OUT_UDP_OTHER">
+        <name>
+          <text>OUT_UDP_OTHER</text>
+        </name>
+      </transition>
+      <transition id="IN_TCP_MAIL">
+        <name>
+          <text>IN_TCP_MAIL</text>
+        </name>
+      </transition>
+      <transition id="OUT_TCP_OTHER">
+        <name>
+          <text>OUT_TCP_OTHER</text>
+        </name>
+      </transition>
+      <transition id="IN_TCP_WEB">
+        <name>
+          <text>IN_TCP_WEB</text>
+        </name>
+      </transition>
+      <transition id="OUT_TCP_REMOTE">
+        <name>
+          <text>OUT_TCP_REMOTE</text>
+        </name>
+      </transition>
+      <transition id="artificial_end">
+        <name>
+          <text>artificial_end</text>
+        </name>
+        <toolspecific tool="ProM" version="6.4" activity="$invisible$" localNodeID="3171b501-599b-4cef-b1ff-e1b76d76d988"/>
+      </transition>
+      <transition id="IN_UDP_OTHER">
+        <name>
+          <text>IN_UDP_OTHER</text>
+        </name>
+      </transition>
+      <transition id="IN_UDP_DNS">
+        <name>
+          <text>IN_UDP_DNS</text>
+        </name>
+      </transition>
+      <transition id="OUT_TCP_FILE">
+        <name>
+          <text>OUT_TCP_FILE</text>
+        </name>
+      </transition>
+      <transition id="OUT_UDP_DNS">
+        <name>
+          <text>OUT_UDP_DNS</text>
+        </name>
+      </transition>
+      <transition id="IN_TCP_REMOTE">
+        <name>
+          <text>IN_TCP_REMOTE</text>
+        </name>
+      </transition>
+      <transition id="artificial_start">
+        <name>
+          <text>artificial_start</text>
+        </name>
+        <toolspecific tool="ProM" version="6.4" activity="$invisible$" localNodeID="4eb64477-81c1-4ee0-94dd-13d5b0c49c5f"/>
+      </transition>
+      <transition id="IN_TCP_OTHER">
+        <name>
+          <text>IN_TCP_OTHER</text>
+        </name>
+      </transition>
+      <arc id="2329743681024" source="p39" target="OUT_UDP_OTHER"/>
+      <arc id="2329743685632" source="IN_TCP_FILE" target="p18"/>
+      <arc id="2329749389824" source="p1" target="OUT_UDP_DNS"/>
+      <arc id="2329749399040" source="p29" target="OUT_TCP_REMOTE"/>
+      <arc id="2329749403648" source="artificial_start" target="p27"/>
+      <arc id="2329749438976" source="IN_UDP_DNS" target="p11"/>
+      <arc id="2329749371408" source="p35" target="IN_UDP_OTHER"/>
+      <arc id="2329743680016" source="p38" target="IN_UDP_OTHER"/>
+      <arc id="2329743684624" source="p13" target="IN_TCP_REMOTE"/>
+      <arc id="2329749393424" source="IN_TCP_WEB" target="p4"/>
+      <arc id="2329749398032" source="p22" target="artificial_end"/>
+      <arc id="2329749402640" source="p26" target="OUT_TCP_MAIL"/>
+      <arc id="2329749442576" source="p9" target="IN_TCP_WEB"/>
+      <arc id="2329743679008" source="p36" target="IN_TCP_OTHER"/>
+      <arc id="2329743683616" source="p7" target="artificial_end"/>
+      <arc id="2329749392416" source="OUT_TCP_FILE" target="p16"/>
+      <arc id="2329749397024" source="p10" target="artificial_end"/>
+      <arc id="2329749401632" source="p30" target="OUT_TCP_WEB"/>
+      <arc id="2329743690800" source="p36" target="OUT_TCP_REMOTE"/>
+      <arc id="2329743682608" source="p14" target="artificial_end"/>
+      <arc id="2329743687216" source="IN_UDP_OTHER" target="p3"/>
+      <arc id="2329749391408" source="p17" target="OUT_UDP_DNS"/>
+      <arc id="2329749396016" source="p8" target="artificial_end"/>
+      <arc id="2329749400624" source="p28" target="IN_TCP_WEB"/>
+      <arc id="2329749405232" source="p25" target="IN_TCP_MAIL"/>
+      <arc id="2329743686208" source="IN_TCP_FILE" target="p19"/>
+      <arc id="2328730283584" source="p41" target="artificial_start"/>
+      <arc id="2329764759104" source="artificial_start" target="p34"/>
+      <arc id="2329743681600" source="artificial_start" target="p33"/>
+      <arc id="2329749390400" source="p6" target="OUT_TCP_FILE"/>
+      <arc id="2329749395008" source="OUT_TCP_WEB" target="p20"/>
+      <arc id="2329749399616" source="OUT_TCP_OTHER" target="p28"/>
+      <arc id="2329749404224" source="p27" target="IN_TCP_WEB"/>
+      <arc id="2329749439552" source="OUT_TCP_MAIL" target="p21"/>
+      <arc id="2329743685200" source="IN_TCP_FILE" target="p2"/>
+      <arc id="2329763997776" source="artificial_end" target="p40"/>
+      <arc id="2329749313616" source="p34" target="IN_TCP_OTHER"/>
+      <arc id="2329743680592" source="p38" target="IN_TCP_WEB"/>
+      <arc id="2329749389392" source="IN_TCP_REMOTE" target="p1"/>
+      <arc id="2329749394000" source="OUT_TCP_REMOTE" target="p23"/>
+      <arc id="2329749398608" source="p29" target="OUT_TCP_MAIL"/>
+      <arc id="2329749443152" source="IN_TCP_OTHER" target="p24"/>
+      <arc id="2328730242656" source="artificial_start" target="p35"/>
+      <arc id="2329743679584" source="p37" target="IN_TCP_OTHER"/>
+      <arc id="2329743684192" source="p32" target="IN_TCP_WEB"/>
+      <arc id="2329749397600" source="IN_UDP_OTHER" target="p22"/>
+      <arc id="2329749442144" source="p9" target="OUT_TCP_MAIL"/>
+      <arc id="2329743683184" source="IN_UDP_DNS" target="p7"/>
+      <arc id="2329749391984" source="IN_TCP_WEB" target="p15"/>
+      <arc id="2329749396592" source="OUT_TCP_REMOTE" target="p10"/>
+      <arc id="2329749401200" source="p30" target="OUT_TCP_MAIL"/>
+      <arc id="2329749441136" source="p0" target="IN_TCP_MAIL"/>
+      <arc id="2329743682176" source="p33" target="IN_TCP_WEB"/>
+      <arc id="2329743686784" source="OUT_UDP_OTHER" target="p5"/>
+      <arc id="2329749390976" source="IN_TCP_FILE" target="p17"/>
+      <arc id="2329749395584" source="IN_UDP_DNS" target="p8"/>
+      <arc id="2329749400192" source="p28" target="IN_UDP_OTHER"/>
+      <arc id="2329749404800" source="artificial_start" target="p25"/>
+      <arc id="2329749440128" source="OUT_TCP_WEB" target="p21"/>
+      <arc id="2329758234768" source="p35" target="OUT_TCP_WEB"/>
+      <arc id="2329743681168" source="p39" target="IN_TCP_REMOTE"/>
+      <arc id="2329743685776" source="IN_TCP_MAIL" target="p18"/>
+      <arc id="2329749399184" source="p29" target="IN_TCP_OTHER"/>
+      <arc id="2329749403792" source="p27" target="OUT_TCP_MAIL"/>
+      <arc id="2329749439120" source="OUT_TCP_FILE" target="p11"/>
+      <arc id="2329743680160" source="p38" target="OUT_TCP_REMOTE"/>
+      <arc id="2329743684768" source="p13" target="IN_TCP_FILE"/>
+      <arc id="2329749393568" source="p4" target="OUT_UDP_DNS"/>
+      <arc id="2329749402784" source="p26" target="IN_TCP_FILE"/>
+      <arc id="2329743679152" source="p36" target="IN_TCP_WEB"/>
+      <arc id="2329743683760" source="OUT_UDP_DNS" target="p32"/>
+      <arc id="2329749392560" source="OUT_TCP_WEB" target="p16"/>
+      <arc id="2329749401776" source="p30" target="IN_TCP_OTHER"/>
+      <arc id="2329749441712" source="IN_UDP_OTHER" target="p9"/>
+      <arc id="2328730270400" source="p34" target="IN_UDP_OTHER"/>
+      <arc id="2329743838912" source="artificial_start" target="p36"/>
+      <arc id="2329743682752" source="IN_UDP_OTHER" target="p12"/>
+      <arc id="2329743687360" source="OUT_TCP_REMOTE" target="p3"/>
+      <arc id="2329749405376" source="p25" target="IN_TCP_WEB"/>
+      <arc id="2329749440704" source="IN_TCP_OTHER" target="p0"/>
+      <arc id="2329763998416" source="OUT_TCP_WEB" target="p31"/>
+      <arc id="2329743681744" source="p33" target="IN_TCP_REMOTE"/>
+      <arc id="2329743686352" source="p19" target="OUT_UDP_OTHER"/>
+      <arc id="2329749395152" source="IN_TCP_WEB" target="p20"/>
+      <arc id="2329749399760" source="artificial_start" target="p28"/>
+      <arc id="2329749439696" source="IN_UDP_OTHER" target="p21"/>
+      <arc id="2329743680736" source="artificial_start" target="p39"/>
+      <arc id="2329743685344" source="p2" target="artificial_end"/>
+      <arc id="2329749389536" source="IN_TCP_FILE" target="p1"/>
+      <arc id="2329749394144" source="IN_TCP_WEB" target="p23"/>
+      <arc id="2329749398752" source="p29" target="IN_UDP_DNS"/>
+      <arc id="2329749438688" source="IN_UDP_OTHER" target="p11"/>
+      <arc id="2329749443296" source="p24" target="OUT_TCP_MAIL"/>
+      <arc id="2329743679728" source="p37" target="OUT_UDP_DNS"/>
+      <arc id="2329743684336" source="IN_UDP_OTHER" target="p13"/>
+      <arc id="2329749393136" source="IN_TCP_REMOTE" target="p4"/>
+      <arc id="2329749397744" source="OUT_TCP_REMOTE" target="p22"/>
+      <arc id="2329749402352" source="OUT_TCP_OTHER" target="p26"/>
+      <arc id="2329749442288" source="p9" target="IN_TCP_FILE"/>
+      <arc id="2329788083456" source="p35" target="IN_TCP_WEB"/>
+      <arc id="2329743683328" source="IN_TCP_MAIL" target="p7"/>
+      <arc id="2329749392128" source="p15" target="OUT_UDP_DNS"/>
+      <arc id="2329749396736" source="IN_UDP_DNS" target="p10"/>
+      <arc id="2329749401344" source="p30" target="IN_UDP_DNS"/>
+      <arc id="2329749441280" source="p0" target="OUT_TCP_WEB"/>
+      <arc id="2329743682320" source="IN_UDP_OTHER" target="p14"/>
+      <arc id="2329743686928" source="p5" target="artificial_end"/>
+      <arc id="2329749391120" source="IN_TCP_MAIL" target="p17"/>
+      <arc id="2329749395728" source="OUT_TCP_REMOTE" target="p8"/>
+      <arc id="2329749400336" source="p28" target="IN_TCP_MAIL"/>
+      <arc id="2329749404944" source="p25" target="IN_UDP_DNS"/>
+      <arc id="2329749440272" source="p21" target="artificial_end"/>
+      <arc id="2329743681312" source="p39" target="IN_TCP_OTHER"/>
+      <arc id="2329743685920" source="p18" target="artificial_end"/>
+      <arc id="2329749390112" source="IN_TCP_REMOTE" target="p6"/>
+      <arc id="2329749394720" source="OUT_TCP_MAIL" target="p20"/>
+      <arc id="2329749399328" source="p29" target="IN_TCP_WEB"/>
+      <arc id="2329749403936" source="p27" target="IN_TCP_FILE"/>
+      <arc id="2329749439264" source="p11" target="artificial_end"/>
+      <arc id="2329749371184" source="p35" target="IN_UDP_DNS"/>
+      <arc id="2329743680304" source="p38" target="IN_TCP_REMOTE"/>
+      <arc id="2329743684912" source="p13" target="IN_TCP_WEB"/>
+      <arc id="2329749398320" source="OUT_TCP_OTHER" target="p29"/>
+      <arc id="2329749402928" source="p26" target="IN_TCP_MAIL"/>
+      <arc id="2329749442864" source="OUT_TCP_OTHER" target="p24"/>
+      <arc id="2328729664832" source="p35" target="OUT_TCP_FILE"/>
+      <arc id="2329743679296" source="artificial_start" target="p37"/>
+      <arc id="2329743683904" source="p32" target="OUT_TCP_FILE"/>
+      <arc id="2329749392704" source="IN_TCP_WEB" target="p16"/>
+      <arc id="2329749401920" source="p30" target="IN_TCP_WEB"/>
+      <arc id="2329749441856" source="IN_TCP_OTHER" target="p9"/>
+      <arc id="2329749313360" source="p34" target="OUT_TCP_REMOTE"/>
+      <arc id="2329743682896" source="OUT_TCP_WEB" target="p12"/>
+      <arc id="2329743687504" source="p3" target="artificial_end"/>
+      <arc id="2329749391696" source="OUT_TCP_FILE" target="p15"/>
+      <arc id="2329749400912" source="OUT_TCP_OTHER" target="p30"/>
+      <arc id="2329749440848" source="OUT_UDP_DNS" target="p0"/>
+      <arc id="2329743681888" source="p33" target="IN_TCP_FILE"/>
+      <arc id="2329743686496" source="IN_TCP_REMOTE" target="p5"/>
+      <arc id="2329749395296" source="p20" target="OUT_UDP_DNS"/>
+      <arc id="2329749399904" source="p28" target="OUT_TCP_MAIL"/>
+      <arc id="2329749439840" source="IN_UDP_DNS" target="p21"/>
+      <arc id="2328730242416" source="p34" target="IN_TCP_WEB"/>
+      <arc id="2329743680880" source="p39" target="OUT_TCP_REMOTE"/>
+      <arc id="2329743685488" source="OUT_TCP_MAIL" target="p18"/>
+      <arc id="2329749389680" source="IN_TCP_WEB" target="p1"/>
+      <arc id="2329749394288" source="p23" target="OUT_UDP_DNS"/>
+      <arc id="2329749398896" source="p29" target="IN_UDP_OTHER"/>
+      <arc id="2329749403504" source="OUT_TCP_OTHER" target="p27"/>
+      <arc id="2329749438832" source="OUT_TCP_WEB" target="p11"/>
+      <arc id="2329749443440" source="p24" target="IN_TCP_MAIL"/>
+      <arc id="2329743679872" source="artificial_start" target="p38"/>
+      <arc id="2329743684480" source="OUT_UDP_DNS" target="p13"/>
+      <arc id="2329749393280" source="OUT_TCP_REMOTE" target="p4"/>
+      <arc id="2329749397888" source="IN_UDP_DNS" target="p22"/>
+      <arc id="2329749402496" source="artificial_start" target="p26"/>
+      <arc id="2329749442432" source="p9" target="IN_TCP_MAIL"/>
+      <arc id="2329743690640" source="p36" target="IN_UDP_DNS"/>
+      <arc id="2329743678864" source="p36" target="OUT_UDP_OTHER"/>
+      <arc id="2329743683472" source="OUT_UDP_OTHER" target="p7"/>
+      <arc id="2329749396880" source="OUT_TCP_FILE" target="p10"/>
+      <arc id="2329749401488" source="p30" target="IN_UDP_OTHER"/>
+      <arc id="2329749441424" source="p0" target="IN_TCP_WEB"/>
+      <arc id="2329743682464" source="OUT_UDP_DNS" target="p14"/>
+      <arc id="2329743687072" source="IN_TCP_REMOTE" target="p3"/>
+      <arc id="2329749391264" source="IN_TCP_WEB" target="p17"/>
+      <arc id="2329749395872" source="OUT_UDP_OTHER" target="p8"/>
+      <arc id="2329749400480" source="p28" target="OUT_TCP_WEB"/>
+      <arc id="2329749405088" source="p25" target="OUT_UDP_OTHER"/>
+      <arc id="2329743681456" source="p39" target="IN_TCP_WEB"/>
+      <arc id="2329743686064" source="OUT_TCP_MAIL" target="p19"/>
+      <arc id="2329749390256" source="p6" target="OUT_TCP_WEB"/>
+      <arc id="2329749394864" source="IN_TCP_MAIL" target="p20"/>
+      <arc id="2329749404080" source="p27" target="IN_TCP_OTHER"/>
+      <arc id="2329743680448" source="p38" target="IN_TCP_OTHER"/>
+      <arc id="2329743685056" source="IN_TCP_REMOTE" target="p2"/>
+      <arc id="2329749393856" source="OUT_TCP_MAIL" target="p23"/>
+      <arc id="2329749398464" source="artificial_start" target="p29"/>
+      <arc id="2329749403072" source="p26" target="IN_TCP_WEB"/>
+      <arc id="2329749443008" source="OUT_TCP_FILE" target="p24"/>
+      <arc id="2329743684048" source="p32" target="OUT_TCP_WEB"/>
+      <arc id="2328730270672" source="p34" target="OUT_TCP_FILE"/>
+      <arc id="2329758236112" source="p35" target="IN_TCP_OTHER"/>
+      <arc id="2329743679440" source="p37" target="IN_UDP_OTHER"/>
+      <arc id="2329749392848" source="p16" target="OUT_UDP_DNS"/>
+      <arc id="2329749397456" source="OUT_TCP_MAIL" target="p22"/>
+      <arc id="2329749442000" source="OUT_UDP_DNS" target="p9"/>
+      <arc id="2329764758496" source="p31" target="OUT_TCP_REMOTE"/>
+      <arc id="2329743683040" source="p12" target="IN_TCP_FILE"/>
+      <arc id="2329749391840" source="OUT_TCP_REMOTE" target="p15"/>
+      <arc id="2329749396448" source="IN_UDP_OTHER" target="p10"/>
+      <arc id="2329749401056" source="artificial_start" target="p30"/>
+      <arc id="2329749440992" source="p0" target="OUT_TCP_MAIL"/>
+      <arc id="2329743803888" source="p34" target="IN_UDP_DNS"/>
+      <arc id="2329743682032" source="p33" target="IN_TCP_OTHER"/>
+      <arc id="2329743686640" source="OUT_TCP_REMOTE" target="p5"/>
+      <arc id="2329749390832" source="OUT_TCP_MAIL" target="p17"/>
+      <arc id="2329749400048" source="p28" target="IN_UDP_DNS"/>
+      <arc id="2329749404656" source="OUT_TCP_OTHER" target="p25"/>
+      <arc id="2329749439984" source="IN_TCP_MAIL" target="p21"/>
+    </page>
+    <finalmarkings>
+      <marking>
+        <place idref="p40">
+          <text>1</text>
+        </place>
+      </marking>
+    </finalmarkings>
+  </net>
+</pnml>
